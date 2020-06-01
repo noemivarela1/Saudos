@@ -26,5 +26,6 @@ public class Saudos {
         System.out.println("Ola mundo");
         System.out.println(saudar());
         System.out.println(saudarConNome());
+        System.out.println("mensaxe de despedida");
     }
 }
