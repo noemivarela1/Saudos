@@ -17,8 +17,14 @@ public class Saudos {
         String saudo=in.nextLine();
         return saudo;
     }
+    public static String saudarConNome(){
+        System.out.println("Indica o teu nome:");
+        String nome=in.nextLine();
+        return "Ola "+nome;
+    }
     public static void main(String[] args){
         System.out.println("Ola mundo");
         System.out.println(saudar());
+        System.out.println(saudarConNome());
     }
 }
