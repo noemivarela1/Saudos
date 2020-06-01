@@ -9,8 +9,16 @@ package com.mycompany.proxectosaudos;
  *
  * @author Noemí
  */
+import java.util.Scanner;
 public class Saudos {
+    public static Scanner in=new Scanner(System.in);
+    public static String saudar(){
+        System.out.println("Indica o saudo:");
+        String saudo=in.nextLine();
+        return saudo;
+    }
     public static void main(String[] args){
         System.out.println("Ola mundo");
+        System.out.println(saudar());
     }
 }
